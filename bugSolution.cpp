@@ -1,0 +1,1 @@
+std::vector<int> vec; vec.push_back(1); vec.push_back(2); if (vec.size() > 2) { vec[2] = 3; } else { //Handle the case where vec.size() is less than 3 } //Or use at() which throws an exception if index is out of bounds vec.at(0); 
